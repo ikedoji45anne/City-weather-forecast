@@ -11,3 +11,25 @@ body {
     border-radius: 16px;
     padding: 35px;
 }
+
+.search-form-input {
+    background-color:#f9f7fe;
+    border: none; 
+    border-radius: 6px;
+    width: 80%;
+    font-size: 16px;
+    padding: 20px, 25px;
+    line-height: 3;
+
+}
+
+.search-form-button {
+    background-color: #885df1;
+    padding: 15px, 30px;
+    border: none;
+    font-size: 16px;
+    margin-left: 5px;
+    border-radius: 6px;
+    color: white;
+    line-height: 3;
+}
