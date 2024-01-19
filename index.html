@@ -12,15 +12,16 @@
 <body>
     <div class="weather-forecast">
     <header>
-        <form class="search-form">
-        <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+        <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input"
+        id="search-form-input"/>
         <input type="submit" value="search" class="search-form-button"/>
     </form>
     </header>
     <main>
         <div class="weather-forecast-data" >
         <div>
-    <H1 class="weather-app-city">Paris</H1>
+    <H1 class="weather-app-city" id="weather-app-city">Paris</H1>
     <p class="weather-app-details">
         Tuesday 14:49, scattered clouds
         <br/>
@@ -43,4 +44,5 @@ and  <a href="https://vercel.com/ikedoji45annes-projects/city-weather-forecast/d
 </div>
     
 </body>
+<script src="src/app.js"></script>
 </html>
